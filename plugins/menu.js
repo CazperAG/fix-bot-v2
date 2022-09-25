@@ -467,10 +467,10 @@ const listMessage = {
   
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     
-    ------------------< MENU >----------------
+    //------------------< MENU >----------------
     
-    ------------------ SIMPLE
-    conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
+    //------------------ SIMPLE
+    /*conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
         externalAdReply: {
             title: `${htjava} ${namebot}`,
             body: titlebot,
@@ -537,10 +537,10 @@ const listMessage = {
                 },
             ]
         }
-        await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
+        //await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
         
-    ------------------- BUTTON VID
-    conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnszQtwz0', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    //------------------- BUTTON VID
+    //conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnszQtwz0', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
