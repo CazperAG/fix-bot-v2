@@ -57,7 +57,7 @@ https://github.com/FahriAdison
 *❉ ImYanXiao:*
 https://github.com/ImYanXiao
 *▸ - - - —「 Thanks For Suhu 」— - - - ◂*
-*❉ WH MODS DEV:*
+*❉ Casperagario DEV:*
 *❉ Kannachan:*
 *❉ Papah-Chan:*
 *❉ Johannes:*
@@ -69,7 +69,7 @@ conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { extern
     mediaUrl: "https://Instagram.com/_ctzhid",
     mediaType: "VIDEO",
     description: "https://Instagram.com/_ctzhid", 
-    title: 'WH-MODS-DEV-MultiDevice',
+    title: 'CazperBotz-V3-MultiDevice',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
