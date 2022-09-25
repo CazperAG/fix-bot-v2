@@ -503,7 +503,7 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n By Wh-Mods-Dev',
+            footer: titlebot + '\n By CasperAgario',
             templateButtons: [
                 {
                     urlButton: {
