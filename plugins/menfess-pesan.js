@@ -10,7 +10,7 @@ let [number, pesan] = text.split `|`
     let korban = `${number}`
     var nomor = m.sender
     let spam1 = `Hi Saya Bot Ada Yang Kirim Pesan Ke Kamu
-Seseorang Temanmu
+Seseorang Temanmu/Crush :v
 (Pengirim Rahasia)
 ⬡──⬡─────────⬡──⬡
 📫Pengirim : Someone
@@ -22,7 +22,7 @@ Maaf Anda Belum Bisa Membalas ke Pengirim
 ------------------------------------------
 
 ▮PENGIRIM RAHASIA 」 
-Anda Ingin Mengirimkan Pesan ke pacar/sahabat/teman/doi/
+Anda Ingin Mengirimkan Pesan ke pacar/sahabat/teman/doi/crush
 mantan?, tapi Tidak ingin tau siapa Pengirimnya?
 Kamu bisa menggunakan Bot ini
 Contoh Penggunaan: .menfess nomor|pesan untuknya
